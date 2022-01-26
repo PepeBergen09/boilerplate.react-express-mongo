@@ -39,6 +39,8 @@ build/Release
 
 # Dependency directories
 node_modules/
+frontend-react/node_modules
+node-mongo-api/node_modules
 jspm_packages/
 
 # TypeScript v1 declaration files
