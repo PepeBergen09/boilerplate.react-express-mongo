@@ -26,4 +26,8 @@ app.get('/', (req, res) => {
     res.render('home');
 });
 
+app.get('/admin', (req, res) => {
+    res.render('adminpage', {layout:'admin.handlebars'});
+});
+
 app.listen(3032);
